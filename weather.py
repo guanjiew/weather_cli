@@ -8,9 +8,6 @@ from color import *
 
 SECRET_FILE = ".secrets.ini"
 BASE_WEATHER_API = "https://api.openweathermap.org/data/2.5/weather"
-PADDING = 20
-REVERSE = "\033[;7m"
-RESET = "\033[0m"
 
 
 def _get_api_key():
